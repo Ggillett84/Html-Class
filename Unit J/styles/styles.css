@@ -1,0 +1,88 @@
+h2 {
+	text-align:center;
+}
+
+form {
+	padding: 10px;
+}
+
+fieldset {
+	margin-bottom: 13px; 
+}
+
+fieldset fieldset{
+	margin-top: 16px;
+	padding: 13px;
+	border: 1px solid #030303;
+}
+
+legend{
+	font-size: 20px;
+}
+
+.contactinfo legend,
+.compressinfo > legend,
+.additionalinfo legend {
+	margin-left: -0.1em;
+	font-weight:bold;
+}
+
+.contactinfo input, #stay-nights, textarea {
+	border: 1px solid #030303;
+	padding: 2px;
+	font-size: 16px;
+}
+
+select {
+	margin-bottom: 10px;
+}
+
+.contactinfo input{
+	position: absolute;
+	left:80px;
+}
+
+#nameinput, #emailinput{
+	width: 400px;
+}
+
+#phoneinput {
+	width:192px;
+}
+
+label {
+	font-size: 16px;
+	line-height: 25.6px;
+}
+
+.contactinfo label {
+	display: block;
+	position: relative;
+	margin: 12.8px 0;
+}
+
+.acinfo label, .psiinfo label {
+	margin-right:25.6px;
+}
+
+#submit {
+	border: none;
+	padding:6.4px 9.6px;
+	background-color: #cac8c8;
+	font-size: 20px;
+	border-radius: 10px;
+	
+}
+
+.submitbutton, p {
+	font-weight: bold;
+	text-align: center;
+}
+
+.submitbutton p {
+	text-decoration: underline;
+}
+
+.submitbutton :hover{
+	color:#ffffff;
+}

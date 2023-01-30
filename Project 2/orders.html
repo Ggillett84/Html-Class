@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="eng">
+<link rel="stylesheet" href="styles/styles.css">
+	<head>
+		<title>Order Form</title>
+	</head>
+	<body>
+    <header>
+		<!-- Heading -->
+		<h1>Zenith's Bounce house</h1>
+	</header>	
+
+	    <!-- Navigation bar -->
+	<div class="contain">
+		  <nav>
+		    <ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="extras.html">Extras</a></li>
+			  <li><a href="servicearea.html">Service Area</ul></li>
+			  <li><a href="prices.html">Prices</a></li>
+			  <li><a href="orders.html">Order Form</a></li>
+	        </ul>
+	      </nav> 
+	    </div>  	
+	<!-- order form -->
+	
+	  <form>
+        <fieldset class="contactinfo">
+        	<legend>Contact Information</legend>
+        	<label for="nameinput">
+        		Name
+        		<input type="text" name="name" id="nameinput">
+        	</label>
+        	<label for="emailinput">
+        		Email
+        		<input type="email" name="email" id="emailinput">
+        	</label>
+        	<label for="phoneinput">
+        		Phone
+        		<input type="tel" name="phone" id="phoneinput">
+        	</label>
+        </fieldset>
+        <fieldset class="orderinfo">
+        	<legend>Order Information</legend>
+        	<fieldset class="schedule">
+        		<legend>Schedule</legend>
+        		<p>Date of Event</p>
+        		<div class="date-picker">
+        			<label for="month">Month
+        			</label>
+        			<select id="month"
+        			name="month">
+        				<option value="01">January</option>
+        				<option value="02">February</option>
+        				<option value="03">March</option>
+        				<option value="04">April</option>
+        				<option value="05">May</option>
+        				<option value="06">June</option>
+        				<option value="07">July</option>
+        				<option value="08">August</option>
+        				<option value="09">September</option>
+        				<option value="10">October</option>
+        				<option value="11">November</option>
+        				<option value="12">December</option>
+        			</select>
+        			<label for="day">Day
+        			</label>
+        			<select id="day"
+        			name="day">
+        				<option value="01">1</option>
+        				<option value="01">2</option>
+        				<option value="01">3</option>
+        				<option value="01">4</option>
+        				<option value="01">5</option>
+        				<option value="01">6</option>
+        				<option value="01">7</option>
+        				<option value="01">8</option>
+        				<option value="01">9</option>
+        				<option value="01">10</option>
+        				<option value="01">11</option>
+        				<option value="01">12</option>
+        				<option value="01">13</option>
+        				<option value="01">14</option>
+        				<option value="01">15</option>
+        				<option value="01">16</option>
+        				<option value="01">17</option>
+        				<option value="01">18</option>
+        				<option value="01">19</option>
+        				<option value="01">20</option>
+        				<option value="01">21</option>
+        				<option value="01">22</option>
+        				<option value="01">23</option>
+        				<option value="01">24</option>
+        				<option value="01">25</option>
+        				<option value="01">26</option>
+        				<option value="01">27</option>
+        				<option value="01">28</option>
+        				<option value="01">29</option>
+        				<option value="01">30</option>
+        				<option value="01">31</option>
+        			</select>
+        			<label for="year">Year
+        			</label>
+        			<select id="year"
+        			name="year">
+        				<option value="2022">2022</option>
+        				<option value="2023">2023</option>
+        				<option value="2024">2024</option>
+        			</select>
+        		</div>
+
+        	</fieldset>
+        	<fieldset class="bhchoice">
+        		<legend>Bounce House Choice</legend>
+        		<label for="tbounce">
+        			<input type="radio" name="choice" id="toddler"
+        			value="toddler" checked>
+        			Toddler Bounce House
+        		</label>
+        		<label for="gbounce">	
+        			<input type="radio" name="choice" id="girl"
+        			value="girl">
+        			Princess Bounce House
+        		</label>
+        		<label for="bbounce">	
+        			<input type="radio" name="choice" id="boy"
+        			value="boy">
+                    Batman Bounce House
+        		</label>
+        		<label for="wbounce">	
+        			<input type="radio" name="choice" id="water"
+        			value="Water">
+                    Bounce Water Slide
+        		</label>
+        	</fieldset>
+        	<fieldset class="extras">
+        		<legend>Extras</legend>
+        		<label for="ccandy">
+        			<input type="checkbox" id="ccandy" value="cotton candy" name="extras">
+        			Cotton candy Machine
+        		</label>
+        		<label for="ccandy">
+        			<input type="checkbox" id="pmaker" value="Popcorn Maker" name="extras">
+        			Popcorn Maker
+        		</label>
+        		<label for="ccandy">
+        			<input type="checkbox" id="imaker" value="Ice Cone Machine" name="extras">
+        			Ice Cone Machine
+        		</label>
+        		<label for="ccandy">
+        			<input type="checkbox" id="gen" value="Generator" name="extras">
+        			Generator
+        		</label>
+        	</fieldset>
+        </fieldset>
+        <fieldset class="additionalinfo">
+        	<legend>Additional Information</legend>
+        	<label for="feedback">
+        		Special Requests
+        		<textarea name="feedback" id="feedback" rows="4" cols="55">
+        		</textarea>
+        	</label>
+        </fieldset>
+        <fieldset class="submitbutton">
+        	<input type="submit" name="submit" value="Submit">
+        </fieldset>
+	  </form>
+	  <!-- footer -->
+	  <footer>
+	  	<h3> Follow us on <a href="https://www.instagram.com/gloria_gillett/" target="_blank">Instagram</a></h3>
+	  </footer>
+	</body>
+</html>

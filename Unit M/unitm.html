@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	  <!--
+       
+	  Filename: Unit M.html
+	  Author: Gloria Gillett
+	  Date: 09-25-2022
+	  HTML and CSS 
+	  
+	  -->
+	  <meta charset="utf-8">
+	  <meta name="viewpoint" content="width=device-width">
+<script>
+function validateForm(evt) {
+  if (evt.preventDefault) {
+    evt.preventDefault();
+  } else {
+  evt.returnValue = false; 
+  }  
+  
+ var errorMessage = document.getElementById("errorMessage"); 
+ var choiceInput = document.getElementById ("Input").value;
+ var allErrors = false;
+ var choiceInput = false;
+   
+try{
+if (Input == "golf"){
+  choiceError = true;
+  throw "Golf Cart Driver";
+  }
+else{
+  inpuT.textContent="";
+}
+ catch(msg){
+  choicE.textContent = msg;
+}  
+</script>	  
+	  
+	<header>  
+	  <h1>What do you Prefer</h1>
+	  <p id="errorMessage"></p>
+	  <p>Golf or Basketball</p>
+	</header>  
+	  <body>
+	    <form>
+	      <fieldset class="choice">
+		    <legend>Type your Answer Below</legend>
+		    <label for="choiceinput">
+		      Your Choice
+		       <input type="text" name="choice" id="Input" placeholder="E.g. 'Basketball'">
+		    </label>
+			<label class="errorLa" id="choiceError"> 
+			</label>
+		  <fieldset class="submitbutton">
+		       <input type="submit" id="submit" value="Submit Answer">
+		  </fieldset>
+	    </form>	
+		<script src="script.js"></script>
+      </body>		
+</html>		  

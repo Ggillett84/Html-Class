@@ -1,0 +1,194 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #030303;
+}
+
+/*Main title*/
+
+
+#page h1{
+	background-color: gray;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 30px;
+	border-bottom: 3px solid #ffffff ;
+}
+
+
+
+
+#main {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/main.png');
+	height: 850px;
+	background-size: cover;
+	background-position: center;
+}
+
+/* navbar */
+
+
+.nav {
+	float: right;
+	list-style:none;
+	margin-top: 20px;
+}
+.nav li {
+	display: inline-block;
+}
+.nav li a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "verdana", "sans-serif";
+	font-size: 20px;
+}
+.current a {
+	border: 1px solid grey;
+	background-color: #030303;
+}
+.nav li a:hover {
+	border: 1px solid gray;
+	background-color: #030303;
+	color: #ffffff;
+}
+
+/*image gallery*/
+
+.service img {
+	width: 200px;
+	height: 200px;
+}
+
+
+.service table{
+	margin-top: 140px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 45%;
+}
+.service td {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 3px;
+	margin: 3px;
+	border: 2px solid white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.offer p{
+	margin: 2px;
+	padding: 2px;
+	width: 35%;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+ .service p {
+ 	width: 45%;
+ 	padding: 2px;
+ 	margin: 2px;
+ 	border: 2px solid white;
+ 	float: right;
+ 	text-align: center;
+ 	font-size: 25px;
+ 	color: white;
+ 	margin-right: 20px;
+ }
+
+
+label {
+	font-size: 1.5em;
+	line-height: 1.6em;
+	color: white;
+}
+.contactinfo label {
+	display: block;
+	position: relative;
+	margin: 0.8em 0;
+}
+.new label {
+	margin-right: 1.6em;
+}
+
+ #nameinput, #emailinput {
+ 	width: 25em;
+ }
+ #phoneinput {
+ 	width: 12em;
+ }
+
+  }
+ contactinfo input {
+ 	position: absolute;
+ 	left: 5em;
+ }
+
+.contactinfo legend,
+.new legend,
+{
+	margin-left: -0.1em;
+	font-weight: bold;
+
+}
+
+form {
+	padding: 10px;
+	border: 2px solid white;
+	margin-top: 150px;
+	width: 40%;
+}
+/*field styles*/
+fieldset{
+	margin-bottom: 0.8em;
+
+}
+fieldset fieldset {
+	margin-top: 1em;
+	padding: 0.8em;
+	border: 1px solid #777;
+}
+legend {
+	font-size: 1.75em;
+	color: white;
+	font-weight: bold;
+
+}
+
+#submit {
+	border: none;
+	padding: 0.4em 0.6em;
+	background-color: #e3d5ba;
+	font-size: 1.50em;
+	border-radius: 10px;
+}
+.submitbutton {
+	text-align: center;
+}
+
+img {
+	width: 40%;
+	float: right;
+	margin-top: 0;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+
+ #main h1 {
+	position: absolute;
+	width: 1200px;
+	margin-left: 0;
+	margin-top: 0;
+	color: #ffffff;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 275px;
+}
+
+

@@ -1,0 +1,52 @@
+body{
+  background-color:tan;
+}
+
+Header {
+	font-family: bitter, "times new roman", Times, serif;
+	text-align:center;
+	background-color:darkgreen;
+	color: white;
+	font-size: 4em;
+}
+	
+
+p {
+	font-family: bitter, "times new roman", Times, serif;
+	float:right;
+	color: black;
+	font-size: 1.4em;
+	width: 11em;
+	background-color: ivory;
+	padding: 1em;
+	border: 1em;
+	
+}
+
+footer {
+    text-align: center;
+	background-color:darkgreen;
+	color:white;
+	font-size:3em
+	
+}	
+
+ul {
+	
+	list-style-type: none;
+    margin: 15px;
+    padding: 0;
+	
+}
+
+a {
+	  float: center;
+	  font-family: bitter, "times new roman", Times, serif;  
+      padding: 1.4px;
+      background-color: darkgreen;
+	  color: white;
+}
+
+img {
+	width: 70%;
+}

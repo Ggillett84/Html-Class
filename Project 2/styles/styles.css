@@ -1,0 +1,229 @@
+body {
+	font-family: cursive, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin:0;
+	background-color: #E8F8F5;
+}
+
+.contain {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	background-color: #A89FBD;
+	color: #B00BAE;
+	min-height: 70px;
+    padding-top: 20px;
+	border-bottom: #B00BAE 4px solid;
+
+}
+header h1 {
+	text-align: center;
+}
+/* Main Page */
+
+#Main h1 {
+	text-align: center;
+}
+#main img {
+	width: 100%;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+/*Navigation Bar*/
+
+
+Nav a{
+	color: #030303;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+Nav li{
+	float: left;
+	display: inline;
+	padding:0 20px 0 20px;
+	margin-right: 25px;
+}
+Nav a:hover {
+	color: #cccccc;
+	font-weight: bold;
+	background-color: #B00BAE;
+}
+nav {
+	text-align: center;
+	margin-top: 10px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*form styles*/
+form {
+	padding: 10px;
+}
+/*field styles*/
+fieldset{
+	margin-bottom: 0.8em;
+}
+fieldset fieldset {
+	margin-top: 1em;
+	padding: 0.8em;
+	border: 1px solid #777;
+}
+legend {
+	font-size: 1.25em;
+}
+.contactinfo legend,
+.orderinfo legend,
+.additionalinfo legend {
+	margin-left: -0.1em;
+	font-weight: bold;
+}
+.schedule {
+	position: relative;
+}
+ .contactinfo input, #hours, textarea {
+ 	border: 1px solid #ccc;
+ 	padding: 0.2em;
+ 	font-size: 1em;
+ }
+ select {
+ 	margin-bottom: 0.6em;
+ }
+ contactinfo input {
+ 	position: absolute;
+ 	left: 5em;
+ }
+ .schedule input {
+ 	position: absolute;
+ 	left: 10em;
+ }
+ #nameinput, #emailinput {
+ 	width: 25em;
+ }
+ #phoneinput {
+ 	width: 12em;
+ }
+ #hoursneeded {
+ 	width: 3em;
+ }
+.bhchoice label {
+	margin-right: 1.6em;
+}
+
+
+ /*label styles*/
+
+label {
+	font-size: 1em;
+	line-height: 1.6em;
+}
+.contactinfo label {
+	display: block;
+	position: relative;
+	margin: 0.8em 0;
+}
+.bhchoice label, .extras label {
+	margin-right: 1.6em;
+}
+.schedule p {
+	width: 9.2em;
+	float: left;
+}
+.date-picker label {
+	position: absolute;
+	left: -10000px;
+}
+
+/* submit button */
+#submit {
+	border: none;
+	padding: 0.4em 0.6em;
+	background-color: #e3d5ba;
+	font-size: 1.25em;
+	border-radius: 10px;
+}
+.submitbutton {
+	text-align: center;
+}
+
+/*Tables*/
+
+table {
+
+	margin-top: 5em;
+	margin-bottom: 5em ;
+	margin-left: 15em;
+	margin-right: 5em;
+	
+}
+th {
+	background-color: #A89FBD ;
+	font-size: 20px;
+}
+table th, td {
+	border: 1px solid;
+	padding-top: 20px;
+	padding-right: 15px ;
+	padding-left: 15px;
+}
+#table {
+	float: left;
+	width: 40%;
+}
+
+#pimg {
+	margin-left: 30em;
+}
+
+aside #sidebar{
+	float:left;
+	margin-top:10px;
+	width: 40%;
+}
+
+aside img {
+	width: 45%;
+	float: left;
+}
+article p {
+	float: right;
+	width: 40%;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+article #main-col {
+	float:right;
+	margin-top:10px;
+	width: 40%;
+}
+
+.title {
+	text-align: center;
+}
+
+ /*footer section*/
+
+ footer {
+	padding: 5px;
+	margin-top: 5px;
+	color: #ffffff;
+	background-color: #B00BAE;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #ffffff;
+}

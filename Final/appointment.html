@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="eng">
+<link rel="stylesheet" href="styles/styles.css">
+	<head>
+		<title>Appointment</title>
+	</head>
+	<body>
+    <header>
+    	<section id="page">
+    		<div class="contain">
+    			<h1>The Dental House</h1>    			
+    		</div>
+    		<div class="top">
+    		  <ul class="nav">
+			    <li><a href="index.html">Home</a></li>
+			    <li><a href="locations.html">Services</a></li>
+			    <li class="current"><a href="appointment.html">Appointment</a></li>
+	          </ul>    		
+    	    </div>
+    	</section>
+	</header>	
+
+	<div>
+		<img src="img/meet.png">
+		<form>
+        <fieldset class="contactinfo">
+        	<legend>Contact Information</legend>
+        	<label for="nameinput">
+        		Name
+        		<input type="text" name="name" id="nameinput">
+        	</label>
+        	<label for="emailinput">
+        		Email
+        		<input type="email" name="email" id="emailinput">
+        	</label>
+        	<label for="phoneinput">
+        		Phone
+        		<input type="tel" name="phone" id="phoneinput">
+        	</label>
+        </fieldset>
+        </fieldset>
+        	<fieldset class="new">
+        		<legend>Are you a new Patient</legend>
+        		<label for="newpat">
+        			<input type="radio" name="choice" id="yes"
+        			value="Yes" checked>
+        			Yes
+        		</label>
+        		<label for="new">	
+        			<input type="radio" name="choice" id="no"
+        			value="No">
+        			No
+        		</label>
+        	 <fieldset class="submitbutton">
+        	    <input type="submit" name="submit" value="Submit">
+              </fieldset>	
+        </form>
+	</div>
+
+
+	</body>
+</html>

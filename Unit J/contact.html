@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+      <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap" 
+	  rel="stylesheet">
+      <link rel="stylesheet" href="styles/styles.css">
+	  <!--
+       
+	  Filename: Unit J.html
+	  Author: Gloria Gillett
+	  Date: 09-25-2022
+	  HTML and CSS 
+	  
+	  -->
+	  <meta charset="utf-8">
+	  <meta name="viewpoint" content="width=device-width">
+	  <h2>Order Form</h2>
+	  <form action="results.html">
+	    <fieldset class="contactinfo">
+		  <legend>Contact Information</legend>
+		  <label for="nameinput">
+		    Name
+		     <input type="text" name="name" id="nameinput" placeholder="First and Last">
+		  </label>
+          <label for="emailinput">
+ 		    Email
+			<input type="email" name="email" id="emailinput" placeholder="address@example.com">
+		  </label>
+          <label for="phoneinput">
+		    Phone
+			<input type="tel" name="phone" id="phoneinput" placeholder="(555)555-5555">
+		  </label>	
+		</fieldset>
+		<fieldset class="compressinfo">
+		  <legend> Air Compressors Available</legend>
+		  
+		  <fieldset class="acinfo">
+		    <legend>Types</legend>
+			<label for="light">
+			  <input type="checkbox" id="light" value="Light Duty" name="aircomp">
+			  Light Duty Workshop Compressors
+			</label>
+            <label for="medium">
+              <input type="checkbox" id="medium" value="Medium Duty" name="aircomp">
+              Medium Duty Workshop Compressors
+            </label>
+            <label for="heavy">
+              <input type="checkbox" id="heavy" value="Heavy Duty" name="aircomp">
+              Heavy Duty Workshop Compressors
+            </label>
+            <label for="air">
+              <input type="checkbox" id="air" value="Airbrush" name="aircomp">
+              Airbrush Compressors
+            </label>			
+		  </fieldset>
+		  <fieldset class="psiinfo">
+		    <legend>PSI (Pounds Per Square Inch)</legend>
+			<label for="vacation">
+			  <input type="radio" name="psiinfo" id="psi" value="-60" checked>
+			  60 PSI and below
+			</label>  
+			<label for="celebration">
+			  <input type="radio" name="psiinfo" id="psi" value="60+">
+			  60-100 PSI
+			</label>
+			<label for="event">
+			  <input type="radio" name="psiinfo" id="psi" value="100+">
+			  100-130 PSI
+			</label>
+			<label for="psi">
+			  <input type="radio" name="psiionf" id="psi" value="130+">
+			  130 and over
+			</label>
+		  </fieldset>
+		</fieldset>
+		<fieldset class="additionalinfo">
+		  <legend>Additional Information</legend>
+		  <label for="feedback">
+		    Questions or Comments
+			<textarea name="feedback" id="feedback" rows="4" cols="55">
+			</textarea>
+		  </label>	
+		</fieldset>
+		<fieldset class="submitbutton">
+		  <p> By submiting you will recieve a list of air compressors that fit your criteria</p>
+		  <input type="submit" id="submit" value="Submit">
+		</fieldset>
+	  </form>
+</html>

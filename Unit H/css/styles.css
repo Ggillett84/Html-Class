@@ -1,0 +1,133 @@
+
+	
+.contain {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	background-color: #101500;
+	color: #ffffff;
+	min-height: 70px;
+    padding-top: 20px;
+	border-bottom: #C12215 5px solid;
+
+}
+	
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding:0 20px 0 20px;
+}
+
+header #brand{
+	float:left
+}
+
+header #brand h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+#showcase{
+	min-height: 600px;
+	background:url('../img/truck.jpg') no-repeat 0 -150px ;
+	text-align: center;
+	color: #101500;
+	font-size:20px;
+
+}
+
+
+
+#newsletter h1{
+	text-align:center;
+	
+}
+
+aside#sidebar{
+	float:right;
+	width:40%;
+	margin-top:10px;
+	font-size:40px;
+	
+}
+
+aside ul{
+	list-style-type:none;
+	
+}
+
+article#main-col {
+	float:left;
+	width:55%;
+	margin-top:10px;
+}
+
+section#tables h1 {
+	text-align:center;
+	
+	
+	
+}
+
+table{
+	width:100%;
+	border:2.5px solid black;
+}
+
+th {
+	font-size:30px;
+}
+
+td{
+	font-size:20px;
+}
+
+td, th {
+	border: 2px solid black;
+	
+}
+
+th{
+	background-color: #c5cdcc;
+}
+
+tables, tbody, thead, tr {
+	border:0;
+	padding:0;
+	margin:0;
+	text-align:center;
+	
+	
+	
+}
+
+
+
+footer {
+	padding: 5px;
+	margin-top: 5px;
+	color: #ffffff;
+	background-color: #101500;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	border-top:#C12215 5px solid;
+}
+
+
+	

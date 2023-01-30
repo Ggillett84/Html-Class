@@ -1,0 +1,79 @@
+	   
+	   
+	   
+	   
+	   body{
+	   background-color:teal;
+	   font-family: Tahoma, Arial, Helvetica, sans-serif;
+	   
+	   }
+	   h1{
+	   font-family: bitter, "Times New Roman", Times, serif;
+	   text-align:center; 
+	   background-color:lightpink; 
+	   font-size:45pt;
+	   box-shadow: 5px 10px 3px #333;
+	   }
+	   
+	   div {text-align: left;
+	       font-size: 2em;
+		   color:lightblue;
+		   
+	   }
+	   
+	   article{
+		 float: right;
+		 width: 20em;
+		 padding: 1em;
+		 position:fixed;
+		 
+		 
+	   }
+	   
+	   nav {
+		   
+		   text-align:center;
+		   width: 10em
+		   color: black;
+		   font-weight:bold;
+		   padding:1em;
+		   border:1em;
+		   background-color:lightpink;
+		   box-shadow: 5px 10px 3px #333;
+	   }
+	   
+	   ul :hover{
+		   color:lightblue;
+	   }
+	   
+	   p::selection {
+	     background-color: black;
+		 color:white;
+	   }
+	   
+		p:first-line {
+		 font-weight: bold;  
+	   }
+	   p:hover {
+		   color: lightblue;
+	   }		   
+	   div:first-letter{
+		  font-size:3em; 
+	      float: left;
+		  line-height: 0.9em;
+		  color: lightblue;
+	   }
+	 	  	  	  
+		 #contact {
+			text-align:center;
+			background-color:lightpink;
+			box-shadow: 5px 10px 3px #333;
+			
+		}
+	   
+	    .accent {
+			   font-weight: bold;
+		   }
+		     .title{
+			   font-style: italic
+		   }
